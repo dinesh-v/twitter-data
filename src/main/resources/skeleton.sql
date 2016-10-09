@@ -10,7 +10,7 @@ create table tweets(
 )CHARACTER SET utf8mb4 COLLATE utf8mb4_bin ENGINE=InnoDB;
 
 # To support Emoji CHARACTER SET utf8mb4 COLLATE utf8mb4_bin
-# Reference : http://blog.arkency.com/2015/05/how-to-store-emoji-in-a-rails-app-with-a-mysql-database/
+# Reference : https://mathiasbynens.be/notes/mysql-utf8mb4
 
 CREATE USER 'twitter'@'localhost' IDENTIFIED BY 'strong_passw0rd';
 GRANT ALL PRIVILEGES ON *.* TO 'twitter'@'localhost' WITH GRANT OPTION;
